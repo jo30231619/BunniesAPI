@@ -1,0 +1,9 @@
+spring:
+   datasource:
+      username: bunnies-jdbc
+      password: bunnies-jdbc
+      url: jdbc:mysql://localhost:3306/bunnies-jdbc
+      
+   sql:
+      init:
+         mode: always
